@@ -1170,11 +1170,12 @@ body {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-height: 380px;
-  object-fit: contain;
+  height: 380px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: -10px;
   filter: drop-shadow(0 18px 22px rgba(20, 59, 70, 0.1));
 }
-
 .hero-note {
   position: absolute;
   z-index: 2;
