@@ -1,13 +1,3 @@
-/* =========================================================
-   GLOBAL / BASE
-   - Added a shared soft background so every page (marketing,
-     auth, and dashboard) uses the same visual language:
-     light grey-teal page background + white cards.
-   - Reduced overall vertical rhythm: most padding/margin
-     values below were ~30-45% larger than needed, which is
-     what was causing the "too much whitespace" feel.
-========================================================= */
-
 body {
   background: #f6faf9;
 }
